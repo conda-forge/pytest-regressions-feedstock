@@ -12,7 +12,8 @@ source:
   sha256: '{{ hash_value }}'
 
 build:
-  number: 0
+  number: 1
+  noarch: python
   script: python -m pip install . --no-deps --ignore-installed
 
 requirements:
