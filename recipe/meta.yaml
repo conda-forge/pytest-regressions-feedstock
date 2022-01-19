@@ -1,5 +1,5 @@
 {% set name = "pytest-regressions" %}
-{% set version = "2.3.0" %}
+{% set version = "2.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4935ad6736ef850d0db12be5ee38740a39988e6b5103f2d35100006b37b94e0e
+  sha256: b3ec4cdb34e8f627606275d8b834c65e60e1a3073e326bb3727a427273d0221d
 
 build:
   noarch: python
