@@ -1,11 +1,11 @@
-About pytest-regressions
-========================
+About pytest-regressions-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-regressions-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ESSS/pytest-regressions
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-regressions-feedstock/blob/main/LICENSE.txt)
 
 Summary: Easy to use fixtures to write regression tests.
 
