@@ -1,5 +1,5 @@
 {% set name = "pytest-regressions" %}
-{% set version = "2.4.3" %}
+{% set version = "2.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7238036bbd17c62944bff55d73edb4993eea3f5dbb835c332ec7bc0ddeb027ed
+  sha256: 818c7884c1cff3babf89eebb02cbc27b307856b1985427c24d52cb812a106fd9
 
 build:
   noarch: python
@@ -17,14 +17,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
     - setuptools
     - setuptools_scm
 
   run:
     - pytest >=6.2.0
     - pytest-datadir >=1.2.0
-    - python >=3.6
+    - python >=3.8
     - pyyaml
 
 test:
