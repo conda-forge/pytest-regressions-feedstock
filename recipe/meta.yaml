@@ -23,7 +23,7 @@ requirements:
 
   run:
     - pytest >=6.2.0
-    - pytest-datadir >=1.2.0
+    - pytest-datadir >=1.7.0
     - python >={{ python_min }}
     - pyyaml
 
