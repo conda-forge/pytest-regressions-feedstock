@@ -150,6 +150,3 @@ Feedstock Maintainers
 * [@nicoddemus](https://github.com/nicoddemus/)
 * [@tadeu](https://github.com/tadeu/)
 
-
-<!-- dummy commit to enable rerendering -->
-
